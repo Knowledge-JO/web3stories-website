@@ -5,6 +5,6 @@ let loader = document.getElementById('loader')
 //     loader.classList.add('remove-loader')
 // }, 3000)
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     loader.classList.add('remove-loader')
 })
