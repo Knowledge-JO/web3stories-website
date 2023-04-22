@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="./styles/about.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/nav_bar.css">
+    <link rel="stylesheet" href="styles/skeleton.css">
 </head>
 <body>
     <div id="loader"></div>
+    <div class="menu-overlay">
+        <div class="menu-items">
+            <ul>
+                <li><img id="close-menu" src="imgs/close-menu.png" alt=""></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roadmap.html">RoadMap</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Submit your story</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <div class="header">
             <div class="nav_bar">
@@ -20,6 +33,7 @@
                     <li><a href="roadmap.html">RoadMap</a></li>
                     <!-- <li><a href="about.html">About</a></li> -->
                     <li><a href="">Submit your story</a></li>
+                    <li><img id="menu-bar" src="imgs/menu-icon.png" alt=""></li>
                 </ul>
             </div>
         </div>
@@ -28,11 +42,6 @@
             <p>A collaborative monument to the birth of web 3</p>
         </div>
         <div class="b">
-            <!-- <div class="about-image-div">
-                <img class="about-image" src="/imgs/background2.webp" alt="">
-                <p class="story">stories.net</p>
-            </div> -->
-
             <div class="content block-1" data-aos="fade-up" data-aos-duration="3000">
                 With every NFT created, every blockchain program deployed, every piece of hardware added to a decentralized network, Web 3 participants are changing the way internet works, to create a fairer distribution of wealth and social influence for humanity.
     
