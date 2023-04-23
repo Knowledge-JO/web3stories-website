@@ -72,12 +72,14 @@ body{
     z-index: -1;
 }
 .center-heading{
-    align-items: center;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    height: 100vh;
 }
 
 .heading{
-    margin-top: 250px;
+    margin: auto;
     text-align: center;
     font-size: 30px;
     color: #fff;
