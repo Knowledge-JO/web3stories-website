@@ -41,14 +41,14 @@
     opacity: 0.9;
     display: flex;
     justify-content: center;
-    transform: translateY(-20000px);
+    transform: translateY(-5000px);
     z-index: 1;
 }
 
-.remove-menu-overlay{
-    translate: 0 -10000px;
-    transition: translate 2s;
-}
+/* .remove-menu-overlay{
+    translate: 0 -5000px;
+    transition: translate 5s;
+} */
 
 .menu-items{
     margin: auto;

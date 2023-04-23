@@ -26,7 +26,7 @@ body{
 }
 
 .remove-loader{
-    translate: 0 -20000px;
+    translate: 0 -5000px;
     transition: 2s;
 }
 
